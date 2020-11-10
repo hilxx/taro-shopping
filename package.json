@@ -52,6 +52,7 @@
     "@babel/core": "^7.8.0",
     "@tarojs/mini-runner": "3.0.16",
     "@tarojs/webpack-runner": "3.0.16",
+    "@types/dva": "^1.1.0",
     "@types/react": "^16.0.0",
     "@types/react-redux": "^7.1.11",
     "@types/redux-logger": "^3.0.8",

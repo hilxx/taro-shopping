@@ -27,7 +27,6 @@ function createApp(opt) {
             console.log(err);
         }
     })
-    console.log('createApp()');
     dispatch = store.dispatch;
     app.dispatch = dispatch;
     return app;

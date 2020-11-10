@@ -1,5 +1,3 @@
-
-
 export const routers = [
   {
     pagePath: 'pages/index/index',
@@ -21,7 +19,7 @@ export const routers = [
     text: '我的',
     iconPath: './assets/images/nav/wode.png',
     selectedIconPath: './assets/images/nav/wode.png',
-  }
+  },
 ]
 
 export default {
