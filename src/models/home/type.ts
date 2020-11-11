@@ -18,7 +18,7 @@ export interface HomeInfo {
       height: number
       id: number
       name: string
-      goodList: Array<{
+      goodsList: Array<{
           id: number
           name: string
           https_pic_url: string

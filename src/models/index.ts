@@ -1,7 +1,19 @@
-import global from './global'
-import home from './home/index'
+import home, { HomeModelState } from './home'
+import category, { CategoryModelState } from './category'
+import shopCard, { ShopCardModelState } from './shopCard'
+import mine, { MineModelState } from './mine'
+
 
 export default [
-    global,
     home,
+    category,
+    shopCard,
+    mine
 ]
+
+export interface State {
+    home: HomeModelState
+    category: CategoryModelState
+    shopCard: ShopCardModelState
+    mine: MineModelState
+}

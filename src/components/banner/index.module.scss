@@ -1,0 +1,25 @@
+@import '~@/src/assets/styles/default.scss';
+
+.banner {
+    display      : block;
+    border-radius: $border-radius-lg;
+    position     : relative;
+
+    >image {
+        width        : 100%;
+        height       : $banner-height;
+        border-radius: $border-radius-md;
+    }
+
+    >text {
+        font-size  : $font-size-md;
+        color      : $white;
+        position   : absolute;
+        line-height: $banner-height;
+        top        : 0;
+        bottom     : 0;
+        left       : 0;
+        right      : 0;
+        text-align : center;
+    }
+}

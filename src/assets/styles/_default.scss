@@ -1,53 +1,70 @@
-$primary-color: #0050b3 !default;
-$info-color: $primary-color !default;
-$success-color: #3eede7 !default;
+$primary-color   : #0050b3 !default;
+$info-color      : $primary-color !default;
+$success-color   : #3eede7 !default;
 $processing-color: #d6ecf0 !default;
-$error-color: #f05654 !default;
-$highlight-color: #f05654 !default;
-$warning-color: #faff72 !default;
-$normal-color: #d9d9d9 !default;
-$white: #fff !default;
-$black: #000 !default;
+$error-color     : #f05654 !default;
+$highlight-color : #f05654 !default;
+$warning-color   : #faff72 !default;
+$normal-color    : #d9d9d9 !default;
+$white           : #fff !default;
+$black           : #000 !default;
 
-$text-color: fade($black, 85%) !default;
-$text-color-secondary: fade($black, 45%) !default;
+$text-color          : lighten($black, 30%) !default;
+$text-color-secondary: lighten($black, 50%) !default;
 
+$back-color          : lighten($black, 30%) !default;
+$back-color-secondary: lighten($black, 50%) !default;
 
-$line-height-base: 1.5715 !default;
+$line-height-base  : 1.5715 !default;
+$line-height-lg    : 2 !default;
 $border-radius-base: 2px !default;
-$border-radius-lg: 20px !default;
+$border-radius-lg  : 40px !default;
+$border-radius-md  : 30px !default;
 
+$icon-size-lg: 80px;
+$icon-size-md: 60px;
+$icon-size-sm: 40px;
 
-$font-size-lg: 50px !default; // containers
-$font-size-md: 40px !default; // small containers and buttons
-$font-size-sm: 35px !default; // Form controls and items
-$font-size-xs: 25px !default; // small items
-$font-size-xss: 15px !default; // more small
+$font-size-lg : 65px !default; // containers
+$font-size-md : 50px !default; // small containers and buttons
+$font-size-sm : 40px !default; // Form controls and items
+$font-size-xs : 30px !default; // small items
+$font-size-xss: 25px !default; // more small
 
-$padding-lg: 24px !default; // containers
-$padding-md: 16px !default; // small containers and buttons
-$padding-sm: 12px !default; // Form controls and items
-$padding-xs: 8px !default; // small items
-$padding-xss: 4px !default; // more small
+$padding-lg : 55px !default; // containers
+$padding-md : 45px !default; // small containers and buttons
+$padding-sm : 35px !default; // Form controls and items
+$padding-xs : 25px !default; // small items
+$padding-xss: 15px !default; // more small
 
 
 // vertical margins
-$margin-lg: 24px !default; // containers
-$margin-md: 16px !default; // small containers and buttons
-$margin-sm: 12px !default; // Form controls and items
-$margin-xs: 8px !default; // small items
-$margin-xss: 4px !default; // more small
+$margin-lg : 55px !default; // containers
+$margin-md : 45px !default; // small containers and buttons
+$margin-sm : 35px !default; // Form controls and items
+$margin-xs : 25px !default; // small items
+$margin-xss: 15px !default; // more small
 
 
 // height rules
 $height-base: 32px !default;
-$height-lg: 40px !default;
-$height-sm: 24px !default;
+$height-lg  : 40px !default;
+$height-sm  : 24px !default;
 
 // Border color
-$border-color-base: hsv(0, 0, 85%) !default; // base border outline a component
-$border-color-split: hsv(0, 0, 94%) !default; // split border inside a component
+$border-color-base   : hsv(0, 0, 85%) !default; // base border outline a component
+$border-color-split  : hsv(0, 0, 94%) !default; // split border inside a component
 $border-color-inverse: $white !default;
-$border-width-base: 1px !default; // width of the border for a component
-$border-style-base: solid !default; // style of a components border
+$border-width-base   : 1px !default; // width of the border for a component
+$border-style-base   : solid !default; // style of a components border
 
+
+/* 图片高度 */
+$grid-img-md  : 220px;
+$banner-height: 140px;
+
+/* 字重 */
+$weight-lg : 900 !default; // containers
+$weight-md : 800 !default; // small containers and buttons
+$weight-sm : 700 !default; // Form controls and items
+$weight-xs : 600 !default; // small items

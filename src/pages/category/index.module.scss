@@ -1,0 +1,25 @@
+@import '~@/src/assets/styles/default.scss';
+
+.wrap {
+    height            : 100vh;
+    display           : grid;
+    grid-template-rows: auto 1fr;
+
+    >view {
+        margin-top: $margin-md;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.tabs {
+    >view {
+        height: 100% !important;
+    }
+}
+
+.detail {
+    padding: 0 $padding-md;
+}
